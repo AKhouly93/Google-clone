@@ -26,7 +26,7 @@ body{
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    min-width: 400px;
+    min-width: 350px;
 }
 header{
     display: flex;
@@ -379,5 +379,10 @@ div:nth-child(3){
     }
     .left{
         order: 3;
+    }
+}
+@media only screen and (max-width:400px) {
+    .lower-footer a{
+        padding: 15px 8px;
     }
 }
